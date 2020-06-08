@@ -1,0 +1,27 @@
+{
+  "name": "twitch_clips",
+  "version": "1.0.0",
+  "description": "파일명 : clip.exe",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . TwitchClipDown --asar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickmonster/twitch_clips.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickmonster/twitch_clips/issues"
+  },
+  "homepage": "https://github.com/patrickmonster/twitch_clips#readme",
+  "devDependencies": {
+    "asar": "^3.0.3",
+    "electron": "^9.0.2"
+  }
+}
