@@ -22,6 +22,6 @@
   "homepage": "https://github.com/patrickmonster/twitch_clips#readme",
   "devDependencies": {
     "asar": "^3.0.3",
-    "electron": "^9.0.2"
+    "electron": "^9.4.0"
   }
 }
